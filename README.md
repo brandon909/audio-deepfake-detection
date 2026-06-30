@@ -70,14 +70,23 @@ Models were evaluated using:
 
 ## Results
 
-Example performance comparison:
+Performance comparison on the test split:
 
 | Model | Accuracy | Precision | Recall | F1 |
 | --- | --- | --- | --- | --- |
-| Logistic Regression | ... | ... | ... | ... |
-| kNN | ... | ... | ... | ... |
-| Naive Bayes | ... | ... | ... | ... |
-| MLP | ... | ... | ... | ... |
+| kNN | 0.533 | 0.933 | 0.094 | 0.171 |
+| Logistic Regression | 0.765 | 0.834 | 0.674 | 0.745 |
+| Naive Bayes | 0.700 | 0.686 | 0.762 | 0.722 |
+| MLP Neural Network | 0.762 | 0.982 | 0.545 | 0.701 |
+
+![Model performance comparison](results/model_performance_comparison.png)
+
+Confusion matrices are available in the `results/` directory for each model:
+
+- `kNN_confusion_matrix.png`
+- `Logistic_Regression_confusion_matrix.png`
+- `Naive_Bayes_confusion_matrix.png`
+- `MLP_Neural_Network_confusion_matrix.png`
 
 ## Pipeline
 
@@ -118,4 +127,3 @@ audio-deepfake-detection/
 - Larger speech datasets
 - Cross-dataset generalization
 - Real-time inference
-

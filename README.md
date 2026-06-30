@@ -90,19 +90,17 @@ Confusion matrices are available in the `results/` directory for each model:
 ## Pipeline
 
 ```text
-Audio
-  |
-Silence Removal
-  |
-Padding
+Audio file(.wav)
   |
 Feature Extraction
   |
-Standardization
+Feature Normalization
   |
-Machine Learning
+Classifier training
   |
-Evaluation
+Prediction(Fake or Real)
+  |
+Evaluation metrics
 ```
 
 ## Repository Structure

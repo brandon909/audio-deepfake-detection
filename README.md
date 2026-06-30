@@ -47,7 +47,6 @@ The dataset contains both authentic and AI-generated speech recordings for super
 
 Dataset source: [Fake-or-Real Audio Dataset on Kaggle](https://www.kaggle.com/datasets/mohammedabdeldayem/the-fake-or-real-dataset)
 
-The dataset is not included in this repository because it is large and should be downloaded directly from Kaggle.
 
 ## Technologies
 

@@ -89,19 +89,7 @@ Confusion matrices are available in the `results/` directory for each model:
 
 ## Pipeline
 
-```text
-Audio file(.wav)
-  |
-Feature Extraction
-  |
-Feature Normalization
-  |
-Classifier training
-  |
-Prediction(Fake or Real)
-  |
-Evaluation metrics
-```
+![Audio deepfake detection pipeline](images/pipeline.png)
 
 ## Repository Structure
 
